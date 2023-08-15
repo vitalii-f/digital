@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Project</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./src/css/main.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script defer src="./src/js/hero_slider.js"></script>
+    <script defer src="./src/js/main.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__wrapper wrapper">
+            <div class="header__logo">
+                <a href="#"><img class="" src="./src/img/svg/logo-black.svg" alt="logo"></a>
+            </div>
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="#about">Главная</a></li>
+                    <li><a href="#hero">Галерея</a></li>
+                    <li><a href="#projects">Проекты</a></li>
+                    <li><a href="#tasks">Основные задачи</a></li>
+                    <li><a href="#footer">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header__burger-menu">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero__wrapper wrapper">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <h2 class="slide-title">
+                            project
+                            <span>home</span>
+                        </h2>
+                        <div class="slide-content">
+                            <img src="./src/img/jpg/hero-slide-1.jpg" alt="Home">
+                            <button class="button button-light">
+                                Взглянуть
+                                <span class="button__arrow button__arrow-dark"></span>
+                            </button>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <h2 class="slide-title">
+                            project
+                            <span>office</span>
+                        </h2>
+                        <div class="slide-content">
+                            <img src="./src/img/jpg/hero-slide-2.jpg" alt="Office">
+                            <button class="button button-light">
+                                Взглянуть
+                                <span class="button__arrow button__arrow-dark"></span>
+                            </button>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <h2 class="slide-title">
+                            project
+                            <span>factory</span>
+                        </h2>
+                        <div class="slide-content">
+                            <img src="./src/img/jpg/hero-slide-3.jpg" alt="Factory">
+                            <button class="button button-light">
+                                Взглянуть
+                                <span class="button__arrow button__arrow-dark"></span>
+                            </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-control">
+                        <div class="contol-buttons">
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                        
+                        <div class="swiper-pagination"></div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="about__wrapper wrapper">
+                <div class="about__gallery">
+                    <img class="gallery__img" src="./src/img/jpg/about-img-1.jpg" alt="photo of building">
+                    <img class="gallery__img" src="./src/img/jpg/about-img-2.jpg" alt="photo of building">
+                    <img class="gallery__img" src="./src/img/jpg/about-img-3.jpg" alt="photo of building">
+                </div>
+                <div class="about__description">
+                    <h2 class="about__title">О компании</h2>
+                    <p class="about__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    <button class="button button-light">
+                        читать
+                        <span class="button__arrow button__arrow-dark"></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="tasks" class="tasks">
+            <div class="tasks__wrapper wrapper">
+                <h2 class="tasks__title">Основные задачи</h2>
+                <div class="tasks__content">
+                    <div class="task">
+                        <span class="task__number">1</span>
+                        <p class="task__description">Создание комфортных условий и повышение качества обслуживания клиентов</p>
+                    </div>
+                    <div class="task">
+                        <span class="task__number">2</span>
+                        <p class="task__description">Постоянно совершенствовать качество предоставляемых услуг путем обучения персонала, закупки нового оборудования и усиленной рекламы на рынке</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects">
+            <div class="projects__wrapper wrapper">
+                <h2 class="projects__title">Наши проекты</h2>
+                <div class="projects__content">
+                    <div class="projects__item">
+                        <img src="./src/img/jpg/projects-img-1.jpg" alt="project building">
+                        <div class="projects__description">
+                            <h3 class="description__title">ДОСУГОВЫЙ ЦЕНТР</h3>
+                            <a href="#" class="description__link">ПОДРОБНЕЕ<span class="button__arrow button__arrow-light"></span></a>
+                        </div>
+                    </div>
+                    <div class="projects__item">
+                        <img src="./src/img/jpg/projects-img-2.jpg" alt="project building">
+                        <div class="projects__description">
+                            <h3 class="description__title">АМФИТЕАТР</h3>
+                            <a href="#" class="description__link">ПОДРОБНЕЕ<span class="button__arrow button__arrow-light"></span></a>
+                        </div>
+                    </div>
+                    <div class="projects__item">
+                        <img src="./src/img/jpg/projects-img-3.jpg" alt="project building">
+                        <div class="projects__description">
+                            <h3 class="description__title">СТАДИОН</h3>
+                            <a href="#" class="description__link">ПОДРОБНЕЕ<span class="button__arrow button__arrow-light"></span></a>
+                        </div>
+                    </div>
+                    <div class="projects__item">
+                        <img src="./src/img/jpg/projects-img-4.jpg" alt="project building">
+                        <div class="projects__description">
+                            <h3 class="description__title">ЖИЛОЙ КОМПЛЕКС</h3>
+                            <a href="#" class="description__link">ПОДРОБНЕЕ<span class="button__arrow button__arrow-light"></span></a>
+                        </div>
+                    </div>
+                    <div class="projects__item">
+                        <img src="./src/img/jpg/projects-img-5.jpg" alt="project building">
+                        <div class="projects__description">
+                            <h3 class="description__title">ДОСУГОВЫЙ ЦЕНТР</h3>
+                            <a href="#" class="description__link">ПОДРОБНЕЕ<span class="button__arrow button__arrow-light"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <button class="button button-dark">
+                    все проекты
+                    <span class="button__arrow button__arrow-light"> </span>
+                </button>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="contact__wrapper wrapper">
+                <h2 class="contact__title">Связаться с нами</h2>
+                <div class="form__wrapper">
+                    <form class="contact__form" method="post">
+                        <input class="contact__input" type="text" placeholder="Имя">
+                        <input class="contact__input" type="text" placeholder="Номер Телефона" required>
+                        <input class="contact__input" type="text" placeholder="E-mail" required>
+                        <input class="contact__input" type="text" placeholder="Интересующий товар/услуга">
+                        <input class="contact__input" type="text" placeholder="Сообщение" required>
+                        <p class="contact__notice">Отправляя заявку Вы соглашаетесь с политикой конфиденциальности</p>
+                        <button class="button button-dark" type="submit">
+                            Отправить
+                            <span class="button__arrow button__arrow-light"> </span>
+                        </button>
+                    </form>
+                    <div class="contact__img">
+                        <img class="contact__img" src="./src/img/jpg/contact-img.jpg" alt="calling human">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer" class="footer">
+        <div class="footer__wrapper wrapper">
+            <div class="footer-top">
+                <div class="footer-column">
+                    <a href="#"><img class="footer__logo" src="./src/img/svg/logo-light.svg" alt="logo"></a>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer__title">Информация</h3>
+                    <nav class="footer__nav">
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Галерея</a></li>
+                            <li><a href="#">Проекты</a></li>
+                            <li><a href="#">Сертификаты</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer__title">Контакты</h3>
+                    <div class="footer__contacts">
+                        <div class="contacts__line">
+                            <img class="contacts__merker" src="./src/img/svg/location.svg" alt="Location">
+                            <address>100000, Республика  Казахстан, г. Караганда, ул. Телевизионная 10</address>
+                        </div>
+                        <div class="contacts__line">
+                            <img class="contacts__merker" src="./src/img/svg/phone.svg" alt="Phone">
+                            <a href="tel:+380000000000"> +38 (000) 000 00 00</a>
+                        </div>
+                        <div class="contacts__line">
+                            <img class="contacts__merker" src="./src/img/svg/mail.svg" alt="E-mail">
+                          <a href="mailto:mail@gmail.com">  mail@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer__title">Социальные сети</h3>
+                    <div class="footer__social">
+                        <a href="#"><img class="social-logo" src="./src/img/svg/facebook.svg" alt="Facebook"></a>
+                        <a href="#"><img class="social-logo" src="./src/img/svg/twitter.svg" alt="Twitter"></a>
+                        <a href="#"><img class="social-logo" src="./src/img/svg/LinkedIn.svg" alt="Linked In"></a>
+                        <a href="#"><img class="social-logo" src="./src/img/svg/pininterest.svg" alt="Pininterest"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="footer__copyright">© 2023 Digital Project. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
